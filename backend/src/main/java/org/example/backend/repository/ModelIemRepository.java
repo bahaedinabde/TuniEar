@@ -1,9 +1,9 @@
 package org.example.backend.repository;
 
-import org.example.backend.model.Iem;
+import org.example.backend.model.ModelIem;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface IemRepository extends JpaRepository<Iem,Long> {
+public interface ModelIemRepository extends JpaRepository<ModelIem, Long> {
 }

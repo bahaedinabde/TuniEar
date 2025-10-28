@@ -22,18 +22,38 @@ public class Notification {
     @JoinColumn(name = "facture_id", nullable = true)
     private Facture facture;
 
-    public Long getIdNotification() { return idNotification; }
-    public void setIdNotification(Long idNotification) { this.idNotification = idNotification; }
+    public Long getIdNotification() {
+        return idNotification;
+    }
+    public void setIdNotification(Long idNotification) {
+        this.idNotification = idNotification;
+    }
 
-    public String getMessage() { return message; }
-    public void setMessage(String message) { this.message = message; }
+    public String getMessage() {
+        return message;
+    }
+    public void setMessage(String message) {
+        this.message = message;
+    }
 
-    public LocalDateTime getDateNotification() { return dateNotification; }
-    public void setDateNotification(LocalDateTime dateNotification) { this.dateNotification = dateNotification; }
+    public LocalDateTime getDateNotification() {
+        return dateNotification;
+    }
+    public void setDateNotification(LocalDateTime dateNotification) {
+        this.dateNotification = dateNotification;
+    }
 
-    public Client getClient() { return client; }
-    public void setClient(Client client) { this.client = client; }
+    public Client getClient() {
+        return client;
+    }
+    public void setClient(Client client) {
+        this.client = client;
+    }
 
-    public Facture getFacture() { return facture; }
-    public void setFacture(Facture facture) { this.facture = facture; }
+    public Facture getFacture() {
+        return facture;
+    }
+    public void setFacture(Facture facture) {
+        this.facture = facture;
+    }
 }

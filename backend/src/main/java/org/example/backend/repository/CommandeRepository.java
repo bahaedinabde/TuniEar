@@ -1,4 +1,7 @@
 package org.example.backend.repository;
 
-public class CommandeRepository {
+import org.example.backend.model.Commande;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CommandeRepository  extends JpaRepository<Commande,Long> {
 }

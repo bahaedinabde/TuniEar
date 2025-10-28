@@ -26,9 +26,6 @@ public class Iem {
         return idIem;
     }
 
-    public void setIdIem(Long idIem) {
-        this.idIem = idIem;
-    }
 
     public ModelIem getModel() {
         return model;

@@ -26,21 +26,45 @@ public class AvisIem {
 
     private LocalDateTime dateAvis;
 
-    public Long getIdAvis() { return idAvis; }
-    public void setIdAvis(Long idAvis) { this.idAvis = idAvis; }
+    public Long getIdAvis() {
+        return idAvis;
+    }
+    public void setIdAvis(Long idAvis) {
+        this.idAvis = idAvis;
+    }
 
-    public Iem getIem() { return iem; }
-    public void setIem(Iem iem) { this.iem = iem; }
+    public Iem getIem() {
+        return iem;
+    }
+    public void setIem(Iem iem) {
+        this.iem = iem;
+    }
 
-    public Client getClient() { return client; }
-    public void setClient(Client client) { this.client = client; }
+    public Client getClient() {
+        return client;
+    }
+    public void setClient(Client client) {
+        this.client = client;
+    }
 
-    public Commentaire getCommentaire() { return commentaire; }
-    public void setCommentaire(Commentaire commentaire) { this.commentaire = commentaire; }
+    public Commentaire getCommentaire() {
+        return commentaire;
+    }
+    public void setCommentaire(Commentaire commentaire) {
+        this.commentaire = commentaire;
+    }
 
-    public Integer getNumEtoiles() { return numEtoiles; }
-    public void setNumEtoiles(Integer numEtoiles) { this.numEtoiles = numEtoiles; }
+    public Integer getNumEtoiles() {
+        return numEtoiles;
+    }
+    public void setNumEtoiles(Integer numEtoiles) {
+        this.numEtoiles = numEtoiles;
+    }
 
-    public LocalDateTime getDateAvis() { return dateAvis; }
-    public void setDateAvis(LocalDateTime dateAvis) { this.dateAvis = dateAvis; }
+    public LocalDateTime getDateAvis() {
+        return dateAvis;
+    }
+    public void setDateAvis(LocalDateTime dateAvis) {
+        this.dateAvis = dateAvis;
+    }
 }

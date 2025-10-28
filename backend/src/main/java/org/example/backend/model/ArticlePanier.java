@@ -16,12 +16,23 @@ public class ArticlePanier {
 
     private Integer quantite;
 
-    public Long getIdArticlePanier() { return idArticlePanier; }
-    public void setIdArticlePanier(Long idArticlePanier) { this.idArticlePanier = idArticlePanier; }
+    public Long getIdArticlePanier() {
+        return idArticlePanier;
+    }
+    public void setIdArticlePanier(Long idArticlePanier) {
+        this.idArticlePanier = idArticlePanier;
+    }
 
-    public Iem getIem() { return iem; }
-    public void setIem(Iem iem) { this.iem = iem; }
+    public Iem getIem() {
 
-    public Integer getQuantite() { return quantite; }
+        return iem;
+    }
+    public void setIem(Iem iem) {
+        this.iem = iem;
+    }
+
+    public Integer getQuantite() {
+        return quantite;
+    }
     public void setQuantite(Integer quantite) { this.quantite = quantite; }
 }
